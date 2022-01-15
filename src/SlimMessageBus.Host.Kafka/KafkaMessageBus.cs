@@ -102,7 +102,8 @@ namespace SlimMessageBus.Host.Kafka
 
             var responseConsumerCreated = false;
 
-            IKafkaTopicPartitionProcessor ResponseProcessorFactory(TopicPartition tp, IKafkaCommitController cc) => new KafkaResponseProcessor(Settings.RequestResponse, tp, cc, this, HeaderSerializer);
+            IKafkaTopicPartitionProcessor ResponseProcessorFactory(TopicPartition tp, IKafkaCommitController cc) => 
+                new KafkaResponseProcessor(Settings.RequestResponse, tp, cc, this, HeaderSerializer);
 
             foreach (var consumersByGroup in Settings.Consumers.GroupBy(x => x.GetGroup()))
             {

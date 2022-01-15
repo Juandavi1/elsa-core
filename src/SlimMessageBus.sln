@@ -178,6 +178,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka-SingleNode", "Kafka-S
 		Samples\Infrastructure\Kafka-SingleNode\docker-compose.yml = Samples\Infrastructure\Kafka-SingleNode\docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlimMessageBus.Host.Pulsar", "SlimMessageBus.Host.Pulsar\SlimMessageBus.Host.Pulsar.csproj", "{1DB5535D-6A36-45CD-9C3B-10F4569457EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -490,6 +492,14 @@ Global
 		{0B310151-44A2-4857-9A4E-7AC2D677BDE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0B310151-44A2-4857-9A4E-7AC2D677BDE3}.Release|x86.ActiveCfg = Release|Any CPU
 		{0B310151-44A2-4857-9A4E-7AC2D677BDE3}.Release|x86.Build.0 = Release|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -538,6 +548,7 @@ Global
 		{0B310151-44A2-4857-9A4E-7AC2D677BDE3} = {CD48FE11-EF0E-41C0-A042-21BB9673FF3C}
 		{59F88FB5-6D19-4520-87E8-227B3539BBB3} = {A5B15524-93B8-4CCE-AC6D-A22984498BA0}
 		{E39CB080-5838-47AF-835B-9E32A2FFE811} = {59F88FB5-6D19-4520-87E8-227B3539BBB3}
+		{1DB5535D-6A36-45CD-9C3B-10F4569457EA} = {9291D340-B4FA-44A3-8060-C14743FB1712}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {435A0D65-610C-4B84-B1AA-2C7FBE72DB80}

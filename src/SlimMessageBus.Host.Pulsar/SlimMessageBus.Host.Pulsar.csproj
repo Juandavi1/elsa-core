@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../Host.Transport.Properties.xml" />
+  
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SlimMessageBus.Host\SlimMessageBus.Host.csproj" />
+    <ProjectReference Include="..\SlimMessageBus\SlimMessageBus.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotPulsar" Version="2.0.1" />
+  </ItemGroup>
+  
+
+</Project>
